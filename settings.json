@@ -1,0 +1,149 @@
+{
+	"window.openFilesInNewWindow": "off",
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"editor.wrappingIndent": "same",
+	"editor.folding": true,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.scrollBeyondLastLine": true,
+	"editor.linkedEditing": true,
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+	"editor.renderControlCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.quickSuggestionsDelay": 0,
+	//Appearance
+	"editor.bracketPairColorization.enabled": false,
+	"editor.glyphMargin": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"workbench.colorCustomizations": {
+		"editorOverviewRuler.errorForeground": "#0000",
+		"editorOverviewRuler.warningForeground": "#0000",
+		"editorOverviewRuler.infoForeground": "#0000"
+	},
+	"workbench.productIconTheme": "fluent-icons",
+	"editor.fontSize": 16,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "Cascadia Code, Jetbrains Mono",
+	"editor.inlayHints.fontFamily": "PragmataPro",
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"comment",
+					"entity.name.type.class",
+					"keyword",
+					"constant",
+					"storage.modifier",
+					"storage.type.class.js"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+	"terminal.integrated.fontSize": 15,
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"emmet.includeLanguages": {
+		"blade": "html",
+		"javascript": "javascriptreact"
+	},
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.startupEditor": "newUntitledFile",
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlineSuggest.enabled": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	//Breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+	//JS & TS
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"editor.hideCursorInOverviewRuler": true,
+	"git.enableSmartCommit": true,
+	// "files.exclude": {
+	// 	"**/.expo": true,
+	// 	"**/.expo-shared": true,
+	// 	"**/.idea": true,
+	// 	"**/.next": true,
+	// 	"**/dist": true
+	// },
+	"window.confirmBeforeClose": "keyboardOnly",
+	"emmet.triggerExpansionOnTab": true,
+	"git.openRepositoryInParentFolders": "never",
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.accessibilitySupport": "off",
+	"settingsSync.ignoredExtensions": ["arickho.matey-vscode"],
+	"workbench.layoutControl.enabled": false,
+	"workbench.editor.empty.hint": "hidden",
+	"window.density.editorTabHeight": "compact",
+	"workbench.colorTheme": "Andromeda",
+	"workbench.sideBar.location": "right",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.statusBar.visible": false,
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"window.zoomLevel": 1,
+	"github.copilot.editor.enableAutoCompletions": true,
+	"files.autoSave": "afterDelay",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"prettier.bracketSameLine": true,
+	"npm.keybindingsChangedWarningShown": true,
+	"git.confirmSync": false
+}
